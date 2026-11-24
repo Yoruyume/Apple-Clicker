@@ -5,8 +5,8 @@
 ```
 游戏名：苹果点点乐
 游戏英文名：Apple Clicker
-作者：轩哥啊哈OvO
-开发者：轩哥啊哈OvO
+作者：Yoruyume
+开发者：Yoruyume
 版本：Beta 0.8.1
 语言：Python
 模块：sys、time、random、pygame、tkinter、threading、win10toast、cryptocode、ttkbootstrap

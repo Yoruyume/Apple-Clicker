@@ -1,6 +1,6 @@
 """
 苹果点点乐（Apple Clicker）
-Copyright (c) 2023 轩哥啊哈OvO
+Copyright (c) 2022-2027 Yoruyume
 """
 
 import sys  # 导入模块
@@ -13,7 +13,7 @@ import tkinter as tk
 import ttkbootstrap as ttk
 from win10toast import ToastNotifier
 
-ver: str = 'beta0.8.1'  # 版本号
+ver: str = 'beta0.8.2'  # 版本号
 
 ########## 初始化定义 ##########
 
@@ -360,7 +360,7 @@ news_all = ['你想种苹果，但没人捧\n场。',  # 新闻
             '新闻：科学家预言与苹\n果相关的世界末日即将\n到来，成为茶余饭后的笑料。',
             '应该放下游戏了。']
 
-information: str = "欢迎来到 苹果点点乐©!  作者/版权: 轩哥啊哈OvO"  # 初始信息
+information: str = "欢迎来到 苹果点点乐©!  作者/版权: Yoruyume"  # 初始信息
 
 ########## 声音系统 ##########
 
@@ -1357,7 +1357,7 @@ def window_about():  # 关于窗口
     icon_label_title = tk.Label(frame_icon, text=("苹果点点乐 Apple Clicker©  " + ver), font=("Arial", 17))
     icon_label_title.pack(anchor='center')
 
-    icon_label_title = tk.Label(frame_icon, text="作者/版权: 轩哥啊哈OvO/Xuange_Aha", font=("Arial", 13))
+    icon_label_title = tk.Label(frame_icon, text="作者/版权: Yoruyume", font=("Arial", 13))
     icon_label_title.pack(anchor='center')
 
     button_frame = tk.Frame(frame_icon)
